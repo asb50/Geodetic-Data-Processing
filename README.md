@@ -1,5 +1,4 @@
 # Geodetic-Data-Processing
-# SINEX Geodetic Analysis
 
 **Procesamiento y análisis de datos geodésicos GNSS mediante Python, SQLite y herramientas de análisis numérico.**
 
@@ -57,13 +56,13 @@ El módulo `sqlite3` forma parte de la biblioteca estándar de Python, por lo qu
 1. Clona el repositorio:
 
    ```bash
-   git clone https://github.com/TU-USUARIO/SINEX-Geodetic-Analysis.git
+   git clone https://github.com/TU-USUARIO/Geodetic-Data-Processing.git
    ```
 
 2. Accede al directorio del proyecto:
 
    ```bash
-   cd SINEX-Geodetic-Analysis
+   cd Geodetic-Data-Processing
    ```
 
 3. Ejecuta el programa:
