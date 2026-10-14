@@ -102,18 +102,6 @@ Aplicación de técnicas de suavizado mediante wavelets para analizar las series
 
 ![Suavizado de series temporales mediante wavelets](imagenes/suavizado_wavelets.png)
 
-### Cálculo de velocidades topocéntricas
-
-Consulta de las velocidades calculadas para las componentes Este, Norte y Altura de las estaciones analizadas.
-
-![Velocidades topocéntricas](imagenes/velocidades_topocentricas.png)
-
-### Velocidades relativas a VILL
-
-Consulta de las velocidades relativas a la estación de referencia VILL.
-
-![Velocidades relativas a VILL](imagenes/velocidades_relativas_vill.png)
-
 ### 1. Coordenadas ECEF
 
 Representación gráfica de las coordenadas cartesianas geocéntricas (X, Y, Z) de una estación GNSS a lo largo del tiempo.
