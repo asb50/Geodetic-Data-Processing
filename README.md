@@ -69,12 +69,8 @@ El módulo `sqlite3` forma parte de la biblioteca estándar de Python, por lo qu
 3. Ejecuta el programa:
 
    ```bash
-   python main.py
+   python practica7.py
    ```
-
-   Sustituye `main.py` por el nombre real del archivo principal si es diferente.
-
-## Resultados
 
 ## Resultados
 
@@ -101,65 +97,6 @@ Visualización de las componentes Este, Norte y Elevación para estudiar los des
 Aplicación de técnicas de suavizado mediante wavelets para analizar las series temporales de las coordenadas topocéntricas.
 
 ![Suavizado de series temporales mediante wavelets](imagenes/suavizado_wavelets.png)
-
-### 1. Coordenadas ECEF
-
-Representación gráfica de las coordenadas cartesianas geocéntricas (X, Y, Z) de una estación GNSS a lo largo del tiempo.
-
-![Resultados de coordenadas ECEF](imagenes/coordenadas_ecef.png)
-
-### 2. Coordenadas topocéntricas
-
-Representación de las componentes topocéntricas Este, Norte y Altura (ENU), que permite analizar los desplazamientos de una estación respecto a su posición de referencia.
-
-![Resultados de coordenadas topocéntricas](imagenes/coordenadas_topocentricas.png)
-
-### 3. Suavizado de series temporales mediante wavelets
-
-Ejemplo del suavizado de las series temporales para estudiar su evolución y reducir las componentes de ruido.
-
-![Suavizado mediante wavelets](imagenes/suavizado_wavelets.png)
-
-### 4. Velocidades topocéntricas
-
-Resultados del cálculo de las velocidades de desplazamiento en las componentes Este, Norte y Altura.
-
-![Resultados de velocidades topocéntricas](imagenes/velocidades_topocentricas.png)
-
-### 5. Velocidades relativas a VILL
-
-Resultados del cálculo de velocidades de las estaciones respecto a la estación de referencia VILL.
-
-![Velocidades relativas a VILL](imagenes/velocidades_relativas_vill.png)
-
-> **Nota:** las imágenes anteriores son rutas de ejemplo. Sustituye los archivos por tus capturas reales y utiliza los nombres correspondientes a las imágenes que incluyas en el repositorio.
-
-## Estructura del proyecto
-
-Una posible organización del repositorio es la siguiente:
-
-```text
-SINEX-Geodetic-Analysis/
-│
-├── main.py
-├── README.md
-├── requirements.txt
-│
-├── datos/
-│   └── meteo.db
-│
-├── SINEX/
-│   └── archivos_sinex.SNX
-│
-└── imagenes/
-    ├── coordenadas_ecef.png
-    ├── coordenadas_topocentricas.png
-    ├── suavizado_wavelets.png
-    ├── velocidades_topocentricas.png
-    └── velocidades_relativas_vill.png
-```
-
-La estructura es orientativa y debe adaptarse a la organización real del proyecto.
 
 ## Objetivos
 
